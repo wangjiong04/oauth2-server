@@ -24,7 +24,7 @@ public class AuthServerConfig
                 .secret("secret")
                 .authorizedGrantTypes("authorization_code", "refresh_token")
                 .scopes("read")
-                .redirectUris("http://localhost:9090/home");
+                .redirectUris("http://localhost:9090/login/oauth2/code/client");
     }
 
 //    @Override
